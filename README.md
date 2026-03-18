@@ -22,17 +22,7 @@ This portfolio represents my skills, learning journey, and growth as an aspiring
 - 🎯 Hover animations  
 - 📬 Contact section  
 
----
-
-## 📸 Preview
-*(Add your website screenshot here)*
-
----
-
-## 🌐 Live Demo
-👉 (Add your GitHub Pages link here)
-
----
+---
 
 ## 📬 Contact
 - 📧 Email: pavithralakshmiv1707@gmail.com  
