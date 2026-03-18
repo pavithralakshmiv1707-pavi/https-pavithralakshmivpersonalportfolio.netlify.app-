@@ -21,7 +21,7 @@
             overflow-x: hidden;
         }
 
-        /* Navigation - FIXED */
+        
         nav {
             position: fixed;
             top: 0;
@@ -76,7 +76,7 @@
             color: #f8c8dc !important;
         }
 
-        /* Scroll Indicator */
+        
         .scroll-indicator {
             position: fixed;
             top: 0;
@@ -87,7 +87,7 @@
             transition: width 0.1s ease;
         }
 
-        /* Sections */
+
         section {
             padding: 120px 5%;
             min-height: 100vh;
@@ -197,7 +197,7 @@
             border-color: #f8c8dc;
         }
 
-        /* Cards */
+    
         .card-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -223,7 +223,7 @@
             box-shadow: 0 25px 50px rgba(248, 200, 220, 0.3);
         }
 
-        /* Skills */
+    
         .skill-item {
             display: flex;
             align-items: center;
@@ -240,7 +240,7 @@
             width: 40px;
         }
 
-        /* Timeline */
+        
         .timeline {
             max-width: 600px;
             margin: 0 auto;
@@ -254,7 +254,7 @@
             border-left: 4px solid #f8c8dc;
         }
 
-        /* Services */
+    
         .service-card i {
             font-size: 3rem;
             color: #f8c8dc;
@@ -271,7 +271,6 @@
             margin-right: auto;
         }
 
-        /* Contact */
         .contact-container {
             max-width: 800px;
             width: 100%;
@@ -347,7 +346,7 @@
             margin-bottom: 1.5rem;
         }
 
-        /* Footer */
+        
         footer {
             text-align: center;
             padding: 2rem;
@@ -355,7 +354,7 @@
             color: #808080;
         }
 
-        /* Animations */
+    
         .fade-in {
             opacity: 0;
             transform: translateY(30px);
@@ -367,7 +366,7 @@
             transform: translateY(0);
         }
 
-        /* Responsive */
+    
         @media (max-width: 768px) {
             nav ul {
                 flex-direction: column;
@@ -383,7 +382,7 @@
 <body>
     <div class="scroll-indicator" id="scrollIndicator"></div>
     
-    <!-- Navigation FIXED -->
+    
     <nav id="navbar">
         <ul>
             <li><a href="#home">Home</a></li>
@@ -396,7 +395,7 @@
         </ul>
     </nav>
 
-    <!-- Home -->
+    
     <section id="home" class="fade-in">
         <div class="profile-container">
             <img src="https://i.postimg.cc/8Cbr9wHW/IMG-20260318-163856.jpg" alt="Pavithra Lakshmi V" class="profile-img">
@@ -420,7 +419,7 @@
         </div>
     </section>
 
-    <!-- Education -->
+    
     <section id="education" class="fade-in">
         <h2 style="text-align: center; font-size: 3rem; margin-bottom: 3rem; background: linear-gradient(135deg, #f8c8dc, #c8a2c8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Education</h2>
         <div class="timeline">
@@ -439,7 +438,7 @@
         </div>
     </section>
 
-    <!-- Skills -->
+    
     <section id="skills" class="fade-in">
         <h2 style="text-align: center; font-size: 3rem; margin-bottom: 4rem; background: linear-gradient(135deg, #f8c8dc, #c8a2c8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Skills</h2>
         <div class="card-grid">
@@ -484,7 +483,7 @@
         </div>
     </section>
 
-    <!-- Projects -->
+
     <section id="projects" class="fade-in">
         <h2 style="text-align: center; font-size: 3rem; margin-bottom: 3rem; background: linear-gradient(135deg, #f8c8dc, #c8a2c8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Projects</h2>
         <div class="card-grid">
@@ -506,7 +505,7 @@
         </div>
     </section>
 
-    <!-- Contact -->
+    
     <section id="contact" class="fade-in">
         <h2 style="text-align: center; font-size: 3rem; margin-bottom: 3rem; background: linear-gradient(135deg, #f8c8dc, #c8a2c8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Get In Touch</h2>
         <div class="contact-container">
@@ -549,7 +548,6 @@
         </div>
     </section>
 
-    <!-- Thank You Section -->
     <section class="thank-you-section fade-in">
         <h2>Thank You!</h2>
         <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto; color: #b0b0b0;">
@@ -563,7 +561,7 @@
     </footer>
 
     <script>
-        // Smooth scrolling FIXED
+        
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -577,7 +575,7 @@
             });
         });
 
-        // Navbar + Scroll indicator
+        
         window.addEventListener('scroll', () => {
             const navbar = document.getElementById('navbar');
             if (window.scrollY > 100) {
@@ -593,7 +591,7 @@
             scrollIndicator.style.width = scrollPercent + '%';
         });
 
-        // Fade in animation
+        
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -50px 0px'
