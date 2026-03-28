@@ -1,7 +1,6 @@
 # 🌸 Pavithra Lakshmi V - Portfolio
 
-![Portfolio Preview] (https://pavithralakshmivpersonalportfolio.netlify.app/)
-
+![Portfolio Preview] (https://pavithralakshmiv7.netlify.app/)
 ## 🚀 About Me
 I am an Information Science and Engineering student passionate about software development and problem-solving.  
 This portfolio represents my skills, learning journey, and growth as an aspiring software engineer.
